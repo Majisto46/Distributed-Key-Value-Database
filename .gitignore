@@ -1,0 +1,30 @@
+# Binaries
+/bin/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go build output
+a.out
+coverage.out
+*.test
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local runtime data
+/tmp/
+/tmp/*
+cluster_data/
+*.log
+
+# Dependency cache
+vendor/
